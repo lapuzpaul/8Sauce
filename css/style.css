@@ -3,8 +3,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: black;
-    font-family:'DM sans' , sans-serif;
+    background: black !important;
+    font-family:'DM sans' , sans-serif !important;
 }
 
 /* START OF NAV LIST */
@@ -41,7 +41,9 @@ nav i img {
     align-items: center;
     justify-content: space-evenly;
 }
-
+.menu-bars{
+    
+}
 .cart a{
     border: 2px black solid;
     border-radius:2px ;
@@ -131,4 +133,9 @@ nav i img {
 .social-medias a{
     text-decoration: none;
     color: white;
+}
+@media (min-width:768px) {
+    nav{
+        
+    }
 }
