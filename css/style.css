@@ -9,7 +9,8 @@ body{
 
 /* START OF NAV LIST */
 nav{
-    position: relative;
+    position: sticky;
+    top: 0;
     height: 90px;
     width: 100%;
     display: flex;
