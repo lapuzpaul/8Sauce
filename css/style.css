@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family:'DM sans' , sans-serif;
+}
+
+/* START OF NAV LIST */
+nav{
+    position: relative;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    font-family:'DM sans' , sans-serif;
+    color: white;
+}
+nav i img {
+    height: 100%;
+}
+.logo{
+    height: 100%;
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+
+.navlist{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cart a{
+    border: 2px black solid;
+    border-radius:2px ;
+    background: white;
+    color: black;
+    width: 110px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0 auto 0;
+    font-size: small;
+    text-align: center;
+}
+.cart a:hover{
+    background: black;
+    border: 2px solid  white;
+    color: white;
+}
+
+/* END OF NAV LIST */
+
+.hero{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 38vh
+}
+.hero img{
+    
+    width: 200px;
+}
+.shop-card-hero{
+    width: 100%;
+    height: 50vh;
+    background: #D51D23;
+}
+
+/* FOOTER     */
+
+.footer-uppper{
+    height: 50vh;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-info{
+    width: 30%;
+
+    color: aliceblue;
+    padding-left:100px ;
+}
+.about-info img {
+    width: 90px;
+}
+.footer-nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+.footer-nav-list{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    text-decoration:none;
+}
+.footer-nav-list a{
+    color: aliceblue;
+    text-decoration: none;
+    padding:10px 0 10px 0 ;
+}
