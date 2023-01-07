@@ -85,7 +85,7 @@ nav i img {
 .footer-uppper{
     height: 50vh;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-evenly;
 }
