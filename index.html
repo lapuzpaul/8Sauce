@@ -11,12 +11,12 @@
     
 </head>
 <body>
-    <nav>
+    <nav class="position-sticky z-1">
         <div class="logo"><img src="img/logo/image_9-removebg-preview.png" alt=""></div>
         <div class="navlist">
             <a class="home" href="#">Home</a>
             <a class="Shop" href="#">Shop</a>
-            <a class="about" href="#">About</a>
+            <a class="About" href="#">About</a>
             <a class="Help" href="#">Help</a>
             <div class="cart">
                 <a href=""><i class="fa-solid fa-cart-shopping"> Your Cart</i></a>
@@ -27,11 +27,82 @@
         </div>
     </nav>
     <div class="hero">
-        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h1>BUTCHER-STYLE BBQ GOODNESS</h1>
         <img src="img/logo/image_9-removebg-preview.png" alt="">
     </div>
-    <div class="shop-card-hero">
+    <div class="shop-card-hero d-flex flex-column justify-content-evenly align-items-center">
+        <div class="container w-50 text-white text-center">
+            <h3>Our award-winning Butcher-style sauces, oils, seasonings and rubs can take your Barbecue party in a whole new different level. Rub it, coat it and taste the flavor upgrade.</h3>
+        </div>
+        
+        <div class="input-group w-25">
+            <input type="text" class="form-control" placeholder="Search here..">
+            <button class="btn btn-warning z-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
 
+        <div>
+            <button type="button" class="btn btn-warning">Shop now</button>
+        </div>        
+
+    </div>
+    <div class="container text-light text-center p-5">
+        <h1 class="featured">Featured Products</h1>
+        <div class="row p-5 d-flex justify-content-between">
+            <div class="col-3">
+                <div class="card text-dark">
+                    <img src="img\product-img\Bird Booster Chicken Injection Chipotle\Bird Booster Chipotle-TR-1.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Bird Booster Chicken Injection Chipotle</h5>                        
+                        <a href="a" class="btn btn-warning">Add to Cart</a>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-dark">
+                    <img src="img\product-img\Bird Booster Chicken Injection Chipotle\Bird Booster Chipotle-TR-1.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Bird Booster Chicken Injection Chipotle</h5>                        
+                        <a href="a" class="btn btn-warning">Add to Cart</a>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-dark">
+                    <img src="img\product-img\Bird Booster Chicken Injection Chipotle\Bird Booster Chipotle-TR-1.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Bird Booster Chicken Injection Chipotle</h5>                        
+                        <a href="a" class="btn btn-warning">Add to Cart</a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about m-5 d-flex flex-wrap align-items-center">
+        <div class="container text-center p-5">
+            <h1>ABOUT OUR SHOP</h1>
+            <p class="text-light mt-5">​Butcher BBQ injections, rubs, and sauces have been used for years to win some of the biggest contests, as well as many local competitions around the world. We use high quality ingredients to make our products. With your family in mind, all of our products are made in USDA inspected plants. Our injections have been researched, developed, tested, and brought to the retail market while using over 34 years of meat knowledge. No other company can match that.
+            </p>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <button type="button" class="btn btn-warning">Shop now</button>
+        </div>       
+    </div>
+
+
+
+
+
+
+    <div class="newsletter bg-warning text-center d-flex w-100 align-items-center row p-5 justify-content-evenly m-0">
+        <div class="w-25">
+        <h1>Newsletter</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore officia dolore, fugiat maiores quibusdam, quos facilis, perspiciatis odit culpa consectetur expedita omnis veniam assumenda illum! Nobis ipsa laboriosam molestiae modi.</p>
+        </div>
+        <div class="input-group w-50">
+            <label class="input-group-text">Email Address:</label>
+            <input type="text" class="form-control" placeholder="johndoe@email.com">
+            <button class="btn btn-success">Subscribe</button>
+        </div>
     </div>
     
     <footer>
