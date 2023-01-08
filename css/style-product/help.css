@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
-
-/* <!-- CONTENT START HERE --> */
-
 nav{
 	background: #000000;
     top: 0;
@@ -11,6 +7,7 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
     
+    background-color: black;
 }
 
 
