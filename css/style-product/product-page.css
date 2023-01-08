@@ -10,16 +10,29 @@
     color: white;
 }
 .product-img-container{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 40%;
     height: 100%;
     padding: 25px;
 }
 .product-img{
     height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productname{
+    color: goldenrod;
 }
 .product-imgs-container{
     height: 25%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .product-imgs-container img{
     height:100px;
@@ -27,7 +40,40 @@
 .product-description{
     padding: 25px;
     width: 60%;
-
+}
+.reviews{
+    display: flex;
+    flex-direction: row;
+}
+.reviews-number{
+    padding: 0 20px;
+}
+.accordion{
+    position: relative;
+}
+.add-to-cart{
+    color: black;
+    background: goldenrod;
+    
+}
+.buy-now{
+    background: #5b0000;
+    color: white;
+    width: 100px;
+}
+.product-price{
+    display: flex;
+    flex-direction: row;
+}
+.product-price a{
+    text-decoration: none;
+    padding: 10px;
+}
+.wtp p,h1{
+    text-align: center;
+}
+.add{
+    margin-left: 100px;
 }
 
 /* <!-- CONTENT END HERE --> */
