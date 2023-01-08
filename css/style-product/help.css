@@ -2,11 +2,35 @@ nav{
     
     background-color: black !important;
 }
+.hero-help{
+    background-color: #5b0000;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding: 80px 100px;
+    font-size: 50px;
+    text-shadow: 3px 3px #000000;
+   
+}
+p span{
+    color: goldenrod;
+    text-decoration-line: underline ;
+}
+.policy-icon-hero{
+    color: goldenrod;
+    font-size: x-large;
 
-
-
-
-
+}
+.policy-links-hero a{
+    text-decoration: none;
+    color: white;
+}
+.message-us-help h1{
+    color: #5b0000;
+}
+.message-us-help p{
+    color: white;
+}
 
 
 
