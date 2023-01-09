@@ -31,7 +31,23 @@ p span{
 .message-us-help p{
     color: white;
 }
-
+.modal{
+    background-color: #5b000059;
+}
+.modal-title{
+    color: #5b0000;
+    font-weight: 900;
+}
+.modal-footer button{
+    background-color: goldenrod;
+}
+.modal-footer button:hover {
+    background-color: #5b0000;
+    color: goldenrod;
+}
+#details-help{
+    height: 130px;
+}
 
 
 
