@@ -6,6 +6,9 @@ body{
     background: black !important;
     font-family:'DM sans' , sans-serif !important;
 }
+body h1{
+    font-family: 'Abril Fatface', cursive;
+}
 
 /* START OF NAV LIST */
 nav{
@@ -72,8 +75,12 @@ nav i img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 38vh
-    
+    height: 38vh;
+    font-family: 'Abril Fatface', cursive;
+
+}
+.hero h1{
+    font-size: 80px;
 }
 .hero img{
     
