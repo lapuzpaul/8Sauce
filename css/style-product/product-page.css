@@ -87,7 +87,8 @@
 .product-card{
     display: flex;
     flex-direction: row;
-
+    flex: 5;
+    width: 25%;
 }
 .similar-products img{
     width: 200px ;
