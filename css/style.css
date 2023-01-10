@@ -109,7 +109,6 @@ nav i img {
 }
 .about-info{
     width: 30%;
-
     color: aliceblue;
     padding-left:100px ;
 }
@@ -121,6 +120,9 @@ nav i img {
     display: flex;
     justify-content: space-evenly;
     color: aliceblue;
+}
+.fa-solid{
+    color: goldenrod;
 }
 .footer-nav-list{
     display: flex;
