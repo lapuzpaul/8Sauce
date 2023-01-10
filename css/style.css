@@ -45,14 +45,12 @@ nav i img {
     align-items: center;
     justify-content: space-evenly;
 }
-.menu-bars{
-    
-}
+
 .cart a{
     border: 2px black solid;
     border-radius:2px ;
     background: white;
-    color: black;
+    color: black !important;
     width: 110px;
     height: 40px;
     display: flex;
