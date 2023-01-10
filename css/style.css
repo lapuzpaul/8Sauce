@@ -7,6 +7,9 @@ body{
     background: black !important;
     font-family:'DM sans' , sans-serif !important;
 }
+body h1{
+    font-family: 'Abril Fatface', cursive;
+}
 
 /* START OF NAV LIST */
 nav{
@@ -73,8 +76,12 @@ nav i img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 38vh
-    
+    height: 38vh;
+    font-family: 'Abril Fatface', cursive;
+
+}
+.hero h1{
+    font-size: 80px;
 }
 .hero h1{
     font-family: 'Abril fatface';
@@ -90,6 +97,10 @@ nav i img {
     background-image: url(../img/Banner\ 1.png);
     background-size: cover;
 }
+#subscribeButton{
+	background-color: #5b0000;
+	color: white;
+}
 
 /* FOOTER     */
 
@@ -102,7 +113,6 @@ nav i img {
 }
 .about-info{
     width: 30%;
-
     color: aliceblue;
     padding-left:100px ;
 }
@@ -114,6 +124,9 @@ nav i img {
     display: flex;
     justify-content: space-evenly;
     color: aliceblue;
+}
+.fa-solid{
+    color: goldenrod;
 }
 .footer-nav-list{
     display: flex;

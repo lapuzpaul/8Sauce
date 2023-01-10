@@ -1,0 +1,52 @@
+body{
+    background: goldenrod !important;
+}
+.thankYou{
+	display: flex;
+	justify-content: center;
+	margin-top: 120px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	color: white;
+}
+.customer-name{
+	text-decoration: none;
+	color: #5b0000;
+	text-shadow: 1px 0px goldenrod;
+}
+.thankYou-received{
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.thankYou-orno{
+	display: flex;
+	justify-content: center;
+	color: white;
+	margin-top: 70px;
+}
+.keepShopping{
+	display: flex;
+	justify-content: center;
+	width: 200px;
+}
+.voucher-img{
+	width: 250px;
+}
+#subscribeButton{
+	background-color: #5b0000;
+	color: white;
+}
+.thankYou-page{
+	background: #5b0000;
+	
+}
+.thankYou-footer{
+	display: flex;
+	justify-content: center;
+	color: white;
+
+}
+.thankYou-contact{
+	color: white;
+}
