@@ -93,6 +93,10 @@ nav i img {
     background-image: url(../img/Banner\ 1.png);
     background-size: cover;
 }
+#subscribeButton{
+	background-color: #5b0000;
+	color: white;
+}
 
 /* FOOTER     */
 

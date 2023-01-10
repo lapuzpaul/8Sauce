@@ -33,3 +33,16 @@ body{
 .voucher-img{
 	width: 250px;
 }
+#subscribeButton{
+	background-color: #5b0000;
+	color: white;
+}
+.thankYou-footer{
+	display: flex;
+	justify-content: center;
+	color: white;
+	
+}
+.thankYou-contact{
+	color: white;
+}
