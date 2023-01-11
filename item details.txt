@@ -97,112 +97,115 @@ item desc:	We knew the secret spices (salt pepper, and garlic) used in Texas bri
 
 ****
 
-item title:	
+item title:	Grilling Addiction Signature Blend
 
-price:		
+price:		$10.99
 
-ingredients:	
+ingredients:	Salt, garlic, onion, monosodium glutimate, sugar, worcestershire & soy sauce powder, black pepper, disodium guanylate, beef flavor, silicone dioxide, lemon peel, and soybean oil
 
-item desc:	
-
-
-****
-
-item title:	
-
-price:		
-
-ingredients:	
-
-item desc:	
+item desc:	Can you get addicted to grilled meat? We think so, and this seasoning is one reason why. We have taken SPG (salt, pepper, and garlic)rubs to a new level of flavor. The blend of garlic, salt, pepper, and a distinct hint of lemon hits your mouth and instantly hooks you. This will be the best steak rub used in your backyard adventures on the grill….heck, you’ll probably have dreams about it. Get obsessed…get Butcher BBQ Grilling Addiction.
+If it comes across the butcher block our Grilling Addiction will be perfect.
 
 
 ****
 
-item title:	
+item title:	Chipotle Rub
 
-price:		
+price:		$10.99
 
-ingredients:	
+ingredients:	n/a
 
-item desc:	
-
-
-****
-
-item title:	
-
-price:		
-
-ingredients:	
-
-item desc:	
+item desc:	If sweet is your game without the savory, we have perfected a brown sugar based rub with just the right amount of chipotle flavor. The sweetness is the key that allows the flavor of the chipotle to shine through without all the heat. A true Sweet Chipotle like no other.
 
 
 ****
 
-item title:	
+item title:	Country Style Seasoning
 
-price:		
+price:		$9.99
 
-ingredients:	
+ingredients:	n/a
 
-item desc:	
-
-
-****
-
-item title:	
-
-price:		
-
-ingredients:	
-
-item desc:	
+item desc:	Our Easy Country Style Baked Bean Seasoning brings back memories from your grandma's old fashioned homemade secret recipe vault. You can taste the BBQ herbs and spices with every bite. With each spoonful you will get the sweetness from the brown sugar then layers of flavor from garlic, onions, peppers. 
+Our full flavored spices work with all types of canned beans. Open your favorite can of beans, add 1/4 cup of E-Z Baked Bean Seasoning, stir in, heat in your preferred method, and serve. Use with pinto beans, canned pork and beans, or white beans. This will change the way you fix your family's meals forever. It's easy, fast, and flavorful.
 
 
 ****
 
-item title:	
+item title:	Private Seasoning
 
-price:		
+price:		$10.99
 
-ingredients:	
+ingredients:	n/a
 
-item desc:	
-
-
-****
-
-item title:	
-
-price:		
-
-ingredients:	
-
-item desc:	
+item desc:	Our Private Seasoning comes from what we like the most. This rub has the proper amounts of savory spices to high lite the beautiful flavors needed from any cut of meat. Use it as a steak rub or for the old school of low and slow cooking.
 
 
 ****
 
-item title:	
+item title:	Steak and Brisket BBQ Rub
 
-price:		
+price:		$10.99
 
-ingredients:	
 
-item desc:	
+ingredients:	n/a 
+
+item desc:	We knew the secret spices (salt pepper, and garlic) used in Texas brisket for decades couldn’t be wrong. With that in mind we utilized that along with a long-time favorite for steaks and gently combined them for the best steak rub flavor. Use this on your slow cooks and for the grill.
 
 
 ****
 
-item title:	
+item title:	Duck Fat Oil
 
-price:		
+price:		$12.79
 
-ingredients:	
+ingredients:	Duck fat, natural flavorings
 
-item desc:	
+item desc:	Cornhusker Kitchen’s Gourmet Duck Fat Spray is a 7-ounce can with 665 servings per every can. Every spray contains .25 grams of duck fat. Use this healthier cooking oil as an alternative for other fats and butter. 
+
+
+****
+
+item title:	Garlic butter Flavor
+
+price:		$10.00
+
+ingredients:	n/a
+
+item desc:	This makes the perfect turkey injection for any meal. No more messy chicken or turkey brine. Perfect for the garlic lover and steak cooker. WARNING: Using this product will make a juicier cooked product that will result in you becoming known as the best Grill master in your neighborhood. Drizzle on the surface of your steaks, pork chops, and chicken after flipping on the grill. 
+
+
+****
+
+item title:	Grilling Oil Steak House Butter Flavor
+
+price:		$10.00
+
+ingredients:	n/a
+
+item desc:	This makes the perfect turkey injection for any meal. No more needing a messy brine for chicken or turkey. Warning: Using this product will make a juicier, cooked product that will result in you becoming known as the best Grill master in your neighborhood. Drizzle on the surface of your steaks, pork chops, or chicken after flipping on the grill. 
+
+
+****
+
+item title:	Homestyle Sweet Sauce
+
+price:		$17.99
+
+ingredients:	Brown sugar, high fructose corn syrup, water, apple cider vinegar, sugar, tomato paste, distilled vinegar, worcestershire sauce (molasses, corn syrup, caramel color, anchovies, tamarind), spices, salt, modified corn starch, sodium benzoate, potassium sorbate, xanthan gum, garlic powder, vanilla extract (vanilla bean extractives, ethyl alcohol), onion powder and natural flavor (dextrose). CONTAINS:  ANCHOVIES (FISH) 
+
+item desc:	The name says it all. Years of BBQ competitions have lead to the creation of this amazing sauce. Great BBQ sauce for ribs, burnt ends, and chicken. The only limitations are based on what you don’t put it on.
+
+
+****
+
+item title:	Sweet BBQ Sauce
+
+price:		$4.49
+
+ingredients:	 ketchup (tomato concentrate, distilled vinegar, high fructose corn syrup, corn syrup, salt, natural flavors), brown sugar, high fructose corn syrup, sugar, distilled vinegar, water, apple cider vinegar, corn syrup, worcestershire sauce (distilled vinegar, molasses, corn syrup, water, salt, caramel color, garlic powder, sugar, spices, anchovies, tamarind, and natural flavor), hydrolized soy protein, paprika, spices, chili peppers, salt, dehydrated onion, dehydrated garlic, soybean oil, mustard flour, sodium benzoate (preservative), contains fish (anchovies), soy 
+
+item desc:	This award winning homemade bbq sauce has the perfect blend of sweetness and spices. Whether you're on the grill or in the kitchen it will compliment beef, pork, chicken, and burgers. 
 
 
 ****
