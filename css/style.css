@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 body{
     margin: 0;
@@ -44,14 +45,12 @@ nav i img {
     align-items: center;
     justify-content: space-evenly;
 }
-.menu-bars{
-    
-}
+
 .cart a{
     border: 2px black solid;
     border-radius:2px ;
     background: white;
-    color: black;
+    color: black !important;
     width: 110px;
     height: 40px;
     display: flex;
@@ -81,6 +80,9 @@ nav i img {
 }
 .hero h1{
     font-size: 80px;
+}
+.hero h1{
+    font-family: 'Abril fatface';
 }
 .hero img{
     
@@ -150,11 +152,6 @@ nav i img {
     text-decoration: none;
     color: white;
 }
-@media (min-width:768px) {
-    nav{
-        
-    }
-}
 .about h1{
     color: #5b0000;
 }
@@ -163,4 +160,8 @@ nav i img {
 }
 .featured{
     color: #5b0000;
+}
+
+.card{
+    background: #5b0000 !important;
 }
