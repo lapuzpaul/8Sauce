@@ -11,8 +11,14 @@ body h1{
     font-family: 'Abril Fatface', cursive;
 }
 
+
+
 /* START OF NAV LIST */
-nav{
+.navbar-toggler{
+    background: white !important;
+}
+
+.navbar{
     position: sticky;
     top: 0;
     height: 90px;
@@ -21,15 +27,14 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
     background: #5b0000;
-}
-nav a{
-    text-decoration: none;
-    font-family:'DM sans' , sans-serif;
-    color: white;
-}
-nav i img {
     height: 100%;
 }
+.nav-link{
+    text-decoration: none;
+    font-family:'DM sans' , sans-serif;
+    color: white !important;
+}
+
 .logo{
     height: 100%;
     width: 100px;
@@ -38,15 +43,9 @@ nav i img {
     width: 100%;
 }
 
-.navlist{
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
-.cart a{
+
+.cart{
     border: 2px black solid;
     border-radius:2px ;
     background: white;
@@ -60,7 +59,7 @@ nav i img {
     font-size: small;
     text-align: center;
 }
-.cart a:hover{
+.cart:hover{
     background: black;
     border: 2px solid  white;
     color: white;
@@ -76,17 +75,10 @@ nav i img {
     align-items: center;
     height: 38vh;
     font-family: 'Abril Fatface', cursive;
-
 }
 .hero h1{
-    font-size: 80px;
-}
-.hero h1{
+    font-size: 50px;
     font-family: 'Abril fatface';
-}
-.hero img{
-    
-    width: 200px;
 }
 .shop-card-hero{
     width: 100%;

@@ -5,29 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sauce Nation</title>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <ticard-title text-light>Sauce Nationyou</ticard-title text-light>                                                                                                  
+                                                                                                    
     
 </head>
 <body>
-    <nav class="position-sticky z-1">
-        <div class="logo"><a href="#index.html"><img src="img/logo/image_9-removebg-preview.png" alt=""></a></div>
-        <div class="navlist">
-            <a class="Home" href="index.html">Home</a>
-            <a class="Shop" href="#">Shop</a>
-            <a class="About" href="#">About</a>
-            <a class="Help" href="html/product-pages/help.html">Help</a>
-            <div class="cart">
-                <a href=""><i class="fa-solid fa-cart-shopping"> Your Cart</i></a>
-            </div>
-            <div class="menu-bars">
 
+    <nav class="navbar navbar-expand-lg position-sticky z-1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#index.html">
+                <img class="logo" src="img/logo/image_9-removebg-preview.png" alt="">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav text-end align-items-end m-auto p-3">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="shop.html" class="nav-link">Shop</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="html/product-pages/help.html" class="nav-link">Help</a>
+                </li>
+
+                <div class="cart p-3">
+                    <a href=""><i class="fa-solid fa-cart-shopping">Your Cart</i></a>
+                </div>
+            </ul>
+
+            <!-- 
+            <div class="navlist">
+                <a class="Home" href="index.html">Home</a>
+                <a class="Shop" href="shop.html">Shop</a>
+                <a class="About" href="#">About</a>
+                <a class="Help" href="html/product-pages/help.html">Help</a>
+                <div class="cart">
+                    <a href=""><i class="fa-solid fa-cart-shopping"> Your Cart</i></a>
+                </div>
+                <div class="menu-bars">
+    
+                </div>
             </div>
+            -->
         </div>
     </nav>
+
     <div class="hero">
         <h1 class="w-50 text-center">BUTCHER-STYLE BBQ GOODNESS</h1>
     </div>
