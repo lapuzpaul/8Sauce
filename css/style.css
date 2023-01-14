@@ -165,7 +165,7 @@ nav i img {
 .card{
     background: #5b0000 !important;
 }
-
+/* added for carousel */
 
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
@@ -201,3 +201,4 @@ nav i img {
   transform: translateX(0);
 }
 
+/* added for carousel */
