@@ -154,19 +154,40 @@ body h1{
 .featured{
     color: white;
 }
-
 .card{
     background: #5b0000 !important;
+}
+.Subscribe{
+    width: 854px;
 }
 /* added for carousel */
 
 @media (max-width: 767px) {
+
+    /* JAVES INPUT */
+
+    .newsletter{
+        flex-direction: column;
+        width: 80%;
+    }
+    .w-25{
+        width: 80%;
+    }
+    .subscribeButton{
+        width: 50%;
+    }
+
+    /* JAVES INPUT */
+
+
+
     .carousel-inner .carousel-item > div {
         display: none;
     }
     .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
+    
 }
 
 .carousel-inner .carousel-item.active,
@@ -177,19 +198,23 @@ body h1{
 
 /* medium and up screens */
 @media (min-width: 768px) {
-    
+    .Subscribe-input{
+        width: 50%;
+    }
+
+
     .carousel-inner .carousel-item-end.active,
     .carousel-inner .carousel-item-next {
-      transform: translateX(25%);
+    transform: translateX(25%);
     }
     
     .carousel-inner .carousel-item-start.active, 
     .carousel-inner .carousel-item-prev {
-      transform: translateX(-25%);
+    transform: translateX(-25%);
     }
     .carousel-inner .carousel-item-end,
     .carousel-inner .carousel-item-start { 
-      transform: translateX(0);
+    transform: translateX(0);
     }
 }
 
