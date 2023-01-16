@@ -148,7 +148,8 @@ body h1{
     color: white;
 }
 .about{
-    height: 38vh
+    height: 38vh;
+    height: 100%;    
 }
 .featured{
     color: white;
