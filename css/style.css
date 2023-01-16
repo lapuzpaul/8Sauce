@@ -160,6 +160,9 @@ body h1{
 .Subscribe{
     width: 854px;
 }
+.newsletter{
+    width: 100%;
+}
 /* added for carousel */
 
 @media (max-width: 767px) {
@@ -168,7 +171,6 @@ body h1{
 
     .newsletter{
         flex-direction: column;
-        width: 80%;
     }
     .w-25{
         width: 80%;
