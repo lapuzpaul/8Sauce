@@ -163,7 +163,24 @@ body h1{
 .newsletter{
     width: 100%;
 }
+/* cart onclick */
+
+.cart-index{
+    display: none;
+    border-radius: 5%;
+    height: auto;
+    width: 200px;
+    color: black !important;
+    background-color: white;
+    margin-right: 10px;
+}
+.cart-index img{
+    width: 75px;
+}
+
+
 /* added for carousel */
+
 
 @media (max-width: 767px) {
 
