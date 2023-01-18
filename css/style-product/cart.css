@@ -79,6 +79,10 @@ content small{
 	border-radius: 5px;
 	box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
+.coupon{
+	margin-left: 120px;
+	margin-bottom: 20px;
+}
 .right-bar hr{
 	margin-bottom: 25px;
 }
@@ -96,6 +100,7 @@ content small{
 	text-align: center;
 	height: 40px;
 	line-height: 40px;
+	background-color: #5b0000;
 	font-weight: 900;
 }
 .right-bar i{
@@ -103,6 +108,7 @@ content small{
 }
 .right-bar a:hover{
 	background-color: goldenrod;
+	color: #5b0000;
 }
 
 @media screen and (max-width: 700px){

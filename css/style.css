@@ -211,9 +211,11 @@ footer .wrap{
 	width: 80%;
 	margin: auto;
 	padding: 40px 0;
+    list-style: none;
 }
 footer .wrap .upper_side ul.flex li{
 	padding: 4px 0;
+    list-style: none;
 }
 
 @media all and (max-width:1023px) and (min-width:768px){
