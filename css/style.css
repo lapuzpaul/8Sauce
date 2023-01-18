@@ -42,10 +42,10 @@ body h1{
 .logo img{
     width: 100%;
 }
-
 .your-cart{
     color: goldenrod;
 }
+
 
 .cart{
     border: 2px black solid;
@@ -171,13 +171,11 @@ body h1{
 
 
 /* added for footer */
-
+.fa-solid{
+    color: goldenrod;
+}
 .upper_side img {
     width: 90px;
-}
-.wrap{
-    color: white;
-    text-decoration: none;
 }
 .flex{
 	display: flex;
@@ -187,11 +185,12 @@ body h1{
 	flex:1;
 	margin-right:16px;
     font-family:'DM sans' , sans-serif;
+    color: aliceblue !important;
 }
 .title{
 	display: block;
 	margin-bottom: 8px;
-	color: goldenrod;
+	color: goldenrod !important;
 	font-size: 22px;
 	letter-spacing: 1.4px;
     font-family: 'Abril Fatface', cursive;
@@ -199,15 +198,14 @@ body h1{
 footer{
 	width: 100%;
 	height: 100%;
-	color: white;
+	color: aliceblue !important;
 	background-color: black !important;
 }
 footer a{
-    color: aliceblue;
-	text-decoration: none;
+    color: aliceblue !important;
 }
 footer a:hover{
-    color: goldenrod;
+    color: goldenrod !important;
 }
 footer .wrap{
 	width: 80%;
