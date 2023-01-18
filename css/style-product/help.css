@@ -35,7 +35,7 @@ p span{
     background-color: #5b000059;
 }
 .modal-title{
-    color: #5b0000;
+    color: #5b0000 !important;
     font-weight: 900;
 }
 .modal-footer button{

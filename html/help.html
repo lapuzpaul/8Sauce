@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/help.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +19,7 @@
     <nav class="navbar navbar-expand-lg position-sticky z-1">
         <div class="container-fluid">
             <a class="navbar-brand" href="#index.html">
-                <img class="logo" src="img/logo/image_9-removebg-preview.png" alt="">
+                <img class="logo" src="../../img/logo/image_9-removebg-preview.png" alt="">
             </a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
                 <span class="navbar-toggler-icon"></span>
@@ -306,4 +307,14 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/77b7313188.js" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<script>
+    function cart(){
+        document.getElementById("cart").style.display = "block";
+        document.getElementById("cart").style.position = "fixed";
+    }
+    function cartout(){
+        document.getElementById("cart").style.display = "none";
+        document.getElementById("cart").style.position = "static";
+    }
+</script>
 </html>
