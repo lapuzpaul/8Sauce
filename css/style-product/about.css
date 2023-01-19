@@ -1,0 +1,16 @@
+
+.aboutPage p{
+	text-align: center;
+}
+.bannerImage{
+	width: 920px;
+	height: 520px;
+	margin-top: 0;
+}
+#aboutStory{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.hero{
+	margin-bottom: 0;
+}
