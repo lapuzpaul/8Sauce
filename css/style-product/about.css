@@ -1,16 +1,107 @@
 
+nav{
+    
+    background-color: black !important;
+}
+body{
+	background: #5b0000 !important;
+}
+.hero-hero{
+	background: goldenrod;
+	color: #5b0000;
+	font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    font-family: 'Abril Fatface', cursive;
+}
 .aboutPage p{
 	text-align: center;
 }
 .bannerImage{
 	width: 920px;
 	height: 520px;
-	margin-top: 0;
+	margin: 0;
+}
+.hero-about{
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	color: #5b0000;
+	font-size: 60px;
+	margin: 50px 0px 50px 0px;
+	background-color: goldenrod;
+	height: 18vh;
 }
 #aboutStory{
 	padding-left: 10%;
 	padding-right: 10%;
+	color: goldenrod;
+	font-size: 20px;
+	font-family: 'DM sans' , sans-serif;
 }
 .hero{
 	margin-bottom: 0;
+}
+hr{
+	box-shadow: rgba(0, 0, 0, 0.849) 10px 5px 0 0;
+}
+
+@media all and (max-width:1023px) and (min-width:768px){
+	
+	footer .wrap{
+		width: 90%;
+	}
+}
+@media all and (max-width:767px){
+
+    .flex{
+        flex-direction:column;
+    }
+    .title{
+		font-size: 18px;
+	}
+	footer .wrap{
+		width: 95%;
+		min-width:320px;
+	}
+    footer .wrap .upper_side ul.flex li{
+		position: relative;
+		padding:8px 0;
+	}
+    footer .wrap .upper_side ul.flex li.first_depth > p:before{
+		position: absolute;
+		top: -1px;
+		right: 0;
+		padding: 5px 8px;
+		content:'\f0d7';
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
+		color:#fff;
+		font-size:24px;
+		cursor: pointer;
+	}
+    footer .wrap .upper_side ul.flex li.first_depth.on > p:before{
+		transform: rotate(180deg);
+	}
+    footer .wrap .upper_side ul.flex li.first_depth > p:after{
+		display: block;
+		content:'';
+		width: 100%;
+		padding-top:8px;
+		border-bottom:1px solid rgba(255,255,255,0.5);
+	}
+    footer .wrap .upper_side ul.second_depth{
+		height: 0;
+		display:none;
+	}
+    footer .wrap .upper_side li.first_depth.on ul.second_depth{
+		height: auto;
+		display: block;
+	}
 }
