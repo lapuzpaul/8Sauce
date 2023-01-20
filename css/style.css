@@ -168,6 +168,10 @@ hr{
 .newsletter{
     width: 100%;
 }
+.col-md{
+    max-width: 100%;
+    width: 33%;
+}
 
 .footer-lower{
     height: 5vh;
