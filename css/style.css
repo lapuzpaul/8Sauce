@@ -32,13 +32,21 @@ body h1{
     background: #5b0000;
     height: 100%;
 }
+.nav-item{
+    padding: 0 50px 0 30px;
+}
 .nav-link{
     text-decoration: none;
     font-family:'DM sans' , sans-serif;
     color: white !important;
     padding: 100px;
 }
-
+.nav-item a:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 10px;
+}
 .logo{
     height: 100%;
     width: 100px;
@@ -50,7 +58,9 @@ body h1{
 .your-cart{
     color: goldenrod;
 }
-
+hr{
+    box-shadow: rgb(255, 251, 251) 10px 5px;
+}
 
 .cart{
     border: 2px black solid;
@@ -84,7 +94,7 @@ body h1{
     font-family: 'Abril Fatface', cursive;
 }
 .hero h1{
-    font-size: 50px;
+    font-size: 80px;
     font-family: 'Abril fatface';
 }
 .shop-card-hero{
@@ -158,6 +168,10 @@ body h1{
 .newsletter{
     width: 100%;
 }
+.col-md{
+    max-width: 100%;
+    width: 33%;
+}
 
 .footer-lower{
     height: 5vh;
@@ -180,22 +194,22 @@ body h1{
     color: goldenrod;
 }
 .upper_side img {
-    width: 90px;
+    width: 150px;
 }
 .flex{
+    justify-items: center;
 	display: flex;
 	justify-content: space-between;
 }
 .flex li{
-	flex:1;
-	margin-right:16px;
+	flex:auto;
     font-family:'DM sans' , sans-serif;
     color: aliceblue !important;
     list-style: none;
 }
 .title{
 	display: block;
-	margin-bottom: 8px;
+    margin: 50px 0px 20px 0px;
 	color: goldenrod !important;
 	font-size: 22px;
 	letter-spacing: 1.4px;

@@ -79,10 +79,12 @@
 .similar-products{
     position: relative;
     width: 100%;
-    background-color: white;
+    color: white;
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 .product-card{
     display: flex;
@@ -92,6 +94,7 @@
 }
 .similar-products img{
     width: 200px ;
+    background-color: black;
 }
 .card-name h3{
     font-size: 20px;
@@ -102,4 +105,11 @@
     color: white;
     padding: 5px;
 }
+.stars{
+    margin-bottom: 10px;
+}
+.add-to-cart-similar a{
+    margin-top: 10px;
+}
+
 /* <!-- CONTENT END HERE --> */
