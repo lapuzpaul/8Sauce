@@ -355,3 +355,8 @@ input::-webkit-inner-spin-button {
     max-height: 25px;
     max-width: max-content;
 }
+.unit input{
+	width: 50px;
+    height: 20px;
+	text-align: center;
+}
