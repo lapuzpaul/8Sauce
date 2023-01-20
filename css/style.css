@@ -32,13 +32,21 @@ body h1{
     background: #5b0000;
     height: 100%;
 }
+.nav-item{
+    padding: 0 50px 0 30px;
+}
 .nav-link{
     text-decoration: none;
     font-family:'DM sans' , sans-serif;
     color: white !important;
     padding: 100px;
 }
-
+.nav-item a:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 10px;
+}
 .logo{
     height: 100%;
     width: 100px;
@@ -50,7 +58,9 @@ body h1{
 .your-cart{
     color: goldenrod;
 }
-
+hr{
+    box-shadow: rgb(255, 251, 251) 10px 5px;
+}
 
 .cart{
     border: 2px black solid;
@@ -84,7 +94,7 @@ body h1{
     font-family: 'Abril Fatface', cursive;
 }
 .hero h1{
-    font-size: 50px;
+    font-size: 80px;
     font-family: 'Abril fatface';
 }
 .shop-card-hero{
