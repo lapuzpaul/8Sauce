@@ -344,3 +344,14 @@ footer .wrap .upper_side ul.flex li{
 
 
 /* added for carousel */
+
+/* for checkout page */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.logosize{
+    max-height: 25px;
+    max-width: max-content;
+}
