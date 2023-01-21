@@ -120,5 +120,13 @@
         display: flex;
         flex-direction: column;
     }
+    .similar-products{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product-card{
+        width: 300px;
+
+    }
 }
 /* <!-- CONTENT END HERE --> */
