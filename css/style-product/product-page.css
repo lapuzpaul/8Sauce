@@ -116,5 +116,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .add{
+        display: flex;
+        flex-direction: column;
+    }
 }
 /* <!-- CONTENT END HERE --> */
