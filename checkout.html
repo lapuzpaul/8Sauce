@@ -99,11 +99,11 @@
                 </li>
             </ul>
       
-            <form class="card p-2">
-                <div class="input-group">
+            <form class="card">
+                <div class="input-group w-75">
                     <input type="text" class="form-control" placeholder="Promo code">
                     <div class="input-group-append">
-                    <button type="submit" class="btn btn-secondary">Redeem</button>
+                    <button type="submit" class="btn btn-secondary z-0">Redeem</button>
                     </div>
                 </div>
             </form>
@@ -135,6 +135,9 @@
                     <div class="col-md-6 mb-3">                        
                         <input type="number" class="form-control" placeholder="Contact Number">
                     </div>
+                    <div class="col-md-12 mb-3">                        
+                        <input type="text" class="form-control" placeholder="Email Address">
+                    </div>
                     <hr class="mb-3 mt-3">
                     <div>                        
                         <input type="checkbox" name="" id="">
@@ -148,26 +151,30 @@
                     <h4 class="text-warning mb-4">Payment Options</h4>
                     <div class="card col-md-12 d-flex card p-3 bg-warning my-1">
                         <div class="d-flex justify-content-between">
-                            <input type="radio" id="">                            
-                            <img class="logosize" src="img\Visa_Logo.png" alt="">                        
+                            <input type="radio" id="" name="paymentType">
+                            <div>                            
+                                <img class="logosize mx-1" src="img\Visa_Logo.png" alt="">
+                                <img class="logosize mx-1" src="img/MasterCard_Logo.png" alt="">
+                            </div>                        
                         </div>
-                    </div>
+                    </div>                    
                     <div class="card col-md-12 d-flex card p-3 bg-warning my-1">
                         <div class="d-flex justify-content-between">
-                            <input type="radio" id="">                            
-                            <img class="logosize" src="img/MasterCard_Logo.png" alt="">                        
-                        </div>
-                    </div>
-                    <div class="card col-md-12 d-flex card p-3 bg-warning my-1">
-                        <div class="d-flex justify-content-between">
-                            <input type="radio" id="">                            
+                            <input type="radio" id="" name="paymentType">                            
                             <img class="logosize" src="img/paypal.png" alt="">                        
                         </div>
                     </div>
                     <div class="card col-md-12 d-flex card p-3 bg-warning my-1">
                         <div class="d-flex justify-content-between">
-                            <input type="radio" id="">                            
+                            <input type="radio" id="" name="paymentType">                            
                             <img class="logosize" src="img/gcash.png" alt="">                        
+                        </div>
+                    </div>
+                    <div class="card col-md-12 d-flex card p-3 bg-warning my-1">
+                        <div class="d-flex justify-content-between">
+                            <input type="radio" id="" name="paymentType">                            
+                            <h2><i class="fa-solid fa-truck-fast text-dark"></i>
+                               <strong>COD</strong> </h2>                        
                         </div>
                     </div>
                     <hr class="my-3">
@@ -176,24 +183,103 @@
                 </div>
 
 
+                
+            </form>
+            <div class="container">
 
-
-                <button class="btn btn-warning">Submit</button>
-                <button class="btn btn-light">Cancel</button>
-            </form>            
-        </div>
-
-        
-
-
-
-        
+                <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#paymentGateway">
+                    Submit
+                </button>
+                <a href="shop.html" class="btn btn-light">Cancel</a>
+                
+            </div>            
+            
+            
+        </div>        
     </div>
-
-
-
 </div>
 
+
+
+
+<!-- modal -->
+<div class="modal fade" id="paymentGateway">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>Order Details</h5>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                <div class="col-md-6 mb-4 d-block">
+                    <h4 class="d-flex justify-content-between mb-3">
+                      <span class="text-warning">Items</span>
+                      <span class="badge badge-pill bg-warning">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between">
+                            <div>                
+                                <h6 class="my-1">Product name</h6>
+                                <span class="unit">Qty: <input value="2"></span>
+                                                       
+                            </div>
+                            <span class="text-muted">$12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <div>                
+                                <h6 class="my-1">Product name</h6>
+                                <span class="unit">Qty: <input value="2"></span>
+                                                       
+                            </div>
+                            <span class="text-muted">$12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <div>                
+                                <h6 class="my-1">Product name</h6>
+                                <span class="unit">Qty: <input value="2"></span>
+                                                       
+                            </div>
+                            <span class="text-muted">$12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between bg-light">
+                            <div class="text-success">
+                                <h6 class="my-0">Promo code</h6>
+                                <small>EXAMPLECODE</small>
+                            </div>
+                            <span class="text-success">-$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Total (USD)</span>
+                            <strong>$31</strong>
+                        </li>
+                    </ul>                
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h4 class="text-warning">Ship to</h4>
+                    <p>Juan dela cruz</p>
+                    <p>75 P. Domingo Street</p>
+                    <p>Carmona, Makati City</p>
+                    <p>Metro Manila 1207</p>
+                    <p>0999-555-4444</p>
+                    <h4 class="text-warning">Payment Type</h4>
+                    <p>GCash</p>
+
+
+                </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-warning">
+                    <a href="html\thankyou.html" class="text-decoration-none">Confirm</a>
+                </button>
+                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -202,12 +288,12 @@
 <!-- NEWSLETTER -->
 
 <div class="newsletter bg-warning text-center d-flex w-100 align-items-center row p-5 justify-content-evenly m-0">
-    <div class="w-25">
+    <div class="w-50 p-5 m-5">
     <h1>Newsletter</h1>
     <p>Sign up to receive email updates on new product announcement, gift ideas, special promotions, sales and more!</p>
     </div>
     <div class="input-group w-50">
-        <label class="input-group-text">Email Address:</label>
+        
         <input type="text" class="form-control" placeholder="johndoe@email.com">
         <button class="btn" id="subscribeButton">Subscribe</button>
     </div>
