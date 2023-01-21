@@ -244,7 +244,9 @@ footer .wrap .upper_side ul.flex li{
 	padding: 4px 0;
     list-style: none;
 }
-
+footer .second_depth li a{
+    text-decoration: none;
+}
 @media all and (max-width:1023px) and (min-width:768px){
 	
 	footer .wrap{
