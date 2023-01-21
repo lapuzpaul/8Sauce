@@ -93,19 +93,26 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 38vh;
+    height: auto;
     font-family: 'Abril Fatface', cursive;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
 .hero h1{
     
     font-family: 'Abril fatface';
 }
+.hero p{
+    
+    font-family: 'DM sans';
+}
 .shop-card-hero{
     width: 100%;
-    height: auto;
+    height: 35vh;
     padding: 40px;
     background: #5b0000;
-    background-image: url(../img/Banner\ 1.png);
+    background-image: url(../img/Butcher\ Sauce\ Banner.png);
     background-size: cover;
 }
 #subscribeButton{
