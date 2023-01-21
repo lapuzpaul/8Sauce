@@ -31,7 +31,7 @@ body{
 	width: 200px;
 }
 .voucher-img{
-	width: 250px;
+	width:	max-content;
 }
 #subscribeButton{
 	background-color: #5b0000;
