@@ -111,5 +111,10 @@
 .add-to-cart-similar a{
     margin-top: 10px;
 }
-
+@media (max-width:768px) {
+    .product-info{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 /* <!-- CONTENT END HERE --> */
