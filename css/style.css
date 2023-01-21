@@ -57,6 +57,7 @@ body h1{
 }
 .your-cart{
     color: goldenrod;
+    text-decoration: none;
 }
 hr{
     box-shadow: rgb(255, 251, 251) 10px 5px;
@@ -94,7 +95,7 @@ hr{
     font-family: 'Abril Fatface', cursive;
 }
 .hero h1{
-    font-size: 80px;
+    
     font-family: 'Abril fatface';
 }
 .shop-card-hero{

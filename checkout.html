@@ -15,49 +15,40 @@
 </head>
 <body>
 <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg position-sticky z-1">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#index.html">
-                <img class="logo" src="img/logo/image_9-removebg-preview.png" alt="">
-            </a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
+<nav class="navbar navbar-expand-lg position-sticky z-1">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#index.html">
+            <img class="logo" src="img/logo/image_9-removebg-preview.png" alt="">
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
 
+    <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav text-end align-items-end m-auto p-3">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
 
-        <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav text-end align-items-end m-auto p-3">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
+            <li class="nav-item">
+                <a href="shop.html" class="nav-link">Shop</a>
+            </li>
 
-                <li class="nav-item">
-                    <a href="shop.html" class="nav-link">Shop</a>
-                </li>
+            <li class="nav-item">
+                <a href="html/about.html" class="nav-link">About</a>
+            </li>
 
-                <li class="nav-item">
-                    <a href="html/about.html" class="nav-link">About</a>
-                </li>
+            <li class="nav-item">
+                <a href="html/help.html" class="nav-link">Help</a>
+            </li>
 
-                <li class="nav-item">
-                    <a href="html/help.html" class="nav-link">Help</a>
-                </li>
-
-                <div class="cart p-3">
-                    <a href="checkout.html"><i class="your-cart fa-solid fa-cart-shopping">Your Cart</i></a>
-                </div>
-            </ul>
-        </div>
-        <!-- <div id="cart" onmouseover="cart()" onmouseup="cartout()" class="cart-index">
-            <p>YOUR CART</p>
-            <hr>
-            <img src="img/product-img/INJECTIONS/Bird Booster Chicken Injection Chipotle/Bird Booster Chipotle-TR-1.png" alt="">
-            <p>Price : $99.99</p>
-            <hr>
-            <a href="">CHECK OUT</a>
-        </div> -->
-    </nav>
+            <div class="cart p-3">
+                <a href="checkout.html" class="your-cart"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+            </div>
+        </ul>
+    </div>    
+</nav>
 <!-- NAVBAR -->
 
 <div class="container text-center mb-5 mt-5">
@@ -112,7 +103,7 @@
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Promo code">
                     <div class="input-group-append">
-                    <button type="submit" class="btn btn-secondary">Redeem</button>
+                    <button type="submit" class="btn btn-secondary z-0">Redeem</button>
                     </div>
                 </div>
             </form>
@@ -185,24 +176,103 @@
                 </div>
 
 
+                
+            </form>
+            <div class="container">
 
-
-                <button class="btn btn-warning">Submit</button>
+                <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#paymentGateway">
+                    Submit
+                </button>
                 <button class="btn btn-light">Cancel</button>
-            </form>            
-        </div>
-
-        
-
-
-
-        
+                
+            </div>            
+            
+            
+        </div>        
     </div>
-
-
-
 </div>
 
+
+
+
+<!-- modal -->
+<div class="modal fade" id="paymentGateway">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>Order Details</h5>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                <div class="col-md-6 mb-4 d-block">
+                    <h4 class="d-flex justify-content-between mb-3">
+                      <span class="text-warning">Items</span>
+                      <span class="badge badge-pill bg-warning">3</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between">
+                            <div>                
+                                <h6 class="my-1">Product name</h6>
+                                <span class="unit">Qty: <input value="2"></span>
+                                                       
+                            </div>
+                            <span class="text-muted">$12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <div>                
+                                <h6 class="my-1">Product name</h6>
+                                <span class="unit">Qty: <input value="2"></span>
+                                                       
+                            </div>
+                            <span class="text-muted">$12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <div>                
+                                <h6 class="my-1">Product name</h6>
+                                <span class="unit">Qty: <input value="2"></span>
+                                                       
+                            </div>
+                            <span class="text-muted">$12</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between bg-light">
+                            <div class="text-success">
+                                <h6 class="my-0">Promo code</h6>
+                                <small>EXAMPLECODE</small>
+                            </div>
+                            <span class="text-success">-$5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Total (USD)</span>
+                            <strong>$31</strong>
+                        </li>
+                    </ul>                
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h4 class="text-warning">Ship to</h4>
+                    <p>Juan dela cruz</p>
+                    <p>75 P. Domingo Street</p>
+                    <p>Carmona, Makati City</p>
+                    <p>Metro Manila 1207</p>
+                    <p>0999-555-4444</p>
+                    <h4 class="text-warning">Payment Type</h4>
+                    <p>GCash</p>
+
+
+                </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-warning">
+                    <a href="html\thankyou.html" class="text-decoration-none">Confirm</a>
+                </button>
+                <button class="btn btn-secondary" data-bs-dismiss="modal">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
